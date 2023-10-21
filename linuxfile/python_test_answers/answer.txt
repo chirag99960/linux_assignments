@@ -1,0 +1,45 @@
+#these sequences is according to the assignment!
+
+1. Salary: 12000 Salary: 8000
+
+2. maJ
+
+3. true 
+
+14. 2
+
+15. -4
+
+3. PYnative // is for // Python Lovers//
+
+8. emp
+   salary
+
+9. fun1("Emma", age=23)
+   fun1(age =23, name="Emma")
+
+10. 3
+
+11. true
+
+12. 10
+    11
+    12
+    13
+
+13. false
+
+14. del student()
+
+15. none #ge() command have a default value is none!
+
+16. yellow
+
+17. aTuple[1][1]
+
+18. true 
+    true 
+
+19. seek()
+
+20. wirtelines(list)

@@ -1,0 +1,25 @@
+1. SED is stand for stream editor 
+   which is used to edit the files quickly and efficiently.
+   It is used to replace, add, delete the text without opening the file.
+
+2. sed -n '/^$/p' file name 
+
+3. for first line:- sed -n '1p' filename
+   for last line:- sed -n '$p' filename 
+
+4. sed -ni '2,$p' filename
+
+5. sed -ni '2,$d' filename
+
+6.for first record:-  sed -i '1 a chirag' filename
+  for last record :- sed -i '$ a hello' filename 
+
+7. sed -i '/^$/d' filename
+
+8. tac filename
+
+9. sed -i '8,${/MNO/ s/ABC/DEF/g' filename 
+
+10. head -n 80 filename | tail -n 1
+
+11. sed -n '9p' filename 

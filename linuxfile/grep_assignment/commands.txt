@@ -1,0 +1,38 @@
+#commands used in this grep assignment
+
+
+1. grep this text.txt
+
+2. grep UNIX test.txt
+   grep unix test.txt
+   grep Unix test.txt
+
+3.grep -c unix test.txt
+
+4.
+
+5.grep -i is test.txt
+
+6.grep -l unix test.txt
+
+7. grep -A 3 Character test.txt
+
+8.grep -B 4 unix test.txt
+
+9. grep -C 2 operating test.txt
+
+10. grep -r Character *
+
+11. grep -iv this test.txt
+
+12.grep -e this -e Word -e Upper -e line test.txt
+  or 
+  egrep this|Word|Upper|line test.txt
+
+13. grep -n this test.txt 
+
+14.grep -w this test.txt
+
+15.grep ^Unix test.txt
+
+16. grep os.$ test.txt
