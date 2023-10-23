@@ -1,0 +1,21 @@
+#Answers of this assignment!!
+
+1. awk option 'pattern{action}' filename 
+
+2. awk 'BEGIN { for(i=1;i<=10;i++) {print "square of",i,"is",i*i}}'
+
+3. ls -d */ | awk '{sum+=$5} END{print "total is",sum}'
+ 
+4. awk -F'[[:blank:]]|,' '{print $3}' chirag.txt
+
+5. awk '{print NR,$0}' chirag.txt
+
+6. awk 'NR=="2",NR=="3"{print $0}' chirag.txt
+
+8. ls -l | awk '{print "mv"$1""$1"_new"}' chirag.txt
+
+9. awk '{ for(i=NF;i>0;i--) print $i }' chirag.txt
+
+10. awk 'BEGIN{sum=0} {sum+=1} END{print "sum is ",sum}' chirag.txt
+
+
